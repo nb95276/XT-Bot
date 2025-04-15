@@ -3,7 +3,7 @@
 # 需要 GitHub CLI ≥ 2.30.0
 
 # 配置区
-REPO="iniwym/XT-Bot"
+REPO="nb95276/XT-Bot"
 WORKFLOW_FILE="INI-X-Bot.yml"    # 实际工作流文件名
 BRANCH="main"
 TERMINAL_THEME="Pro"
