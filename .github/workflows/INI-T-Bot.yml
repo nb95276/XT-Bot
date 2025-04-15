@@ -28,6 +28,7 @@ jobs:
         run: |
           mkdir -p Python/output
           mkdir -p Python/downloads
+          mkdir -p TypeScript/tweets
 
       - name: Install dependencies
         run: |
