@@ -4,7 +4,7 @@
 
 # 功能：通过输入 0（禁用）、1（启用）或 2（手动执行）控制工作流程
 # 配置区
-REPO="inivai/XT-Bot"
+REPO="nb95276/XT-Bot"
 WORKFLOW_FILE="XT-Bot.yml"
 BRANCH="main"
 TERMINAL_THEME="Pro"
