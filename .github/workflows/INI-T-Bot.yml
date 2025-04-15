@@ -69,6 +69,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add Python/output Python/dataBase Python/config TypeScript/tweets
+          git add Python/output Python/dataBase TypeScript/tweets
           git commit -m "chore: update user data [skip ci]" || exit 0
           git push
