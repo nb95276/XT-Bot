@@ -34,7 +34,7 @@ interface ProcessConfig {
     outputDir?: string;
     /** 是否强制刷新用户信息，默认 false */
     forceRefresh?: boolean;
-    /** 请求间隔时间（毫秒），默认 5000 */
+    /** 请求间隔时间（毫秒），默认 500000 */
     interval?: number;
 }
 
@@ -59,7 +59,7 @@ export async function processTweetsByScreenName(
         const {
             outputDir = '../resp/respTweets',
             forceRefresh = false,
-            interval = 5000
+            interval = 500000
         } = config;
 
         // 步骤1: 获取用户ID ---------------------------------------------------------
